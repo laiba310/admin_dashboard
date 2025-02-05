@@ -86,7 +86,7 @@ const DashboardCards = () => {
       
         <div className="bg-white p-6 shadow-lg rounded-lg hover:shadow-2xl transition-shadow duration-300">
           <h3 className="text-xl font-medium">Total Sales</h3>
-          <p className="text-3xl font-bold text-gray-700">${totalSales.toFixed(2)}</p>
+          <p className="text-3xl font-bold text-gray-700">PKR{totalSales.toFixed(2)}</p>
         </div>
 
      

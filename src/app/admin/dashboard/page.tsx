@@ -21,7 +21,7 @@ const AdminDashboard: React.FC = () => {
       {/* Main Content */}
       <div className="flex-1 p-6">
         {/* Page Title */}
-        <h1 className="text-4xl font-bold mb-6 text-gray-800">Dashboard</h1>
+        <h1 className="text-4xl font-bold mb-6 text-gray-800 mt-9">Dashboard</h1>
 
         {/* Cards Section */}
         <DashboardCards />
