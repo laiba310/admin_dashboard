@@ -45,7 +45,7 @@ const Sidebar = () => {
         } ${isMobile ? "fixed left-0 top-0" : "sticky top-0"} w-64 bg-white text-gray-800 min-h-screen p-5 shadow-lg transition-transform duration-300 ease-in-out z-10`}
       >
     <Link href={"/admin/dashboard"}>
-        <h2 className="text-2xl font-bold mb-6 text-indigo-600">MarketPlace</h2>
+        <h2 className="text-2xl font-bold mb-6 text-indigo-600">ShopCo</h2>
         </Link>
         {/* Navigation Menu */}
         <nav>
