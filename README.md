@@ -1,36 +1,90 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Admin Dashboard - Complete Guide
 
-## Getting Started
+Welcome to the **Admin Dashboard**! This guide will walk you through all the key features and functionalities available in the system. Whether you’re managing products, tracking orders, or handling customers, this dashboard makes it easy and efficient.  
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🌟 Overview of the Admin Dashboard  
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The **Admin Dashboard** is a central hub that helps administrators manage everything in one place. It provides:  
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Real-Time Analytics** – Keep track of sales, orders, and customer activities at a glance.  
+- **User-Friendly Interface** – Simple and intuitive design for smooth navigation.  
+- **Secure Access** – Only authorized users can access sensitive information.  
+ 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Now, let's dive into each section of the dashboard! 🚀  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🛍️ Product Management  
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The **Product Management Module** makes it easy to manage your store’s product catalog. Whether you want to add new products, update existing ones, or remove outdated listings, this section has got you covered.  
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🔑 Key Features  
 
-## Deploy on Vercel
+✔️ **View All Products** – See a list of all products with names, prices, categories, and images.  
+✔️ **Add New Products** – Enter product details, upload images, and set prices.  
+✔️ **Edit Products** – Update product names, prices, or categories anytime.  
+✔️ **Delete Products** – Remove products that are no longer available.  
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 🔍 How to Use  
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+1️⃣ Click on **Products** in the sidebar.  
+2️⃣ The product list page will appear.  
+3️⃣ Use the **Add New Product** button to add items.  
+4️⃣ Click **Edit** or **Delete** for modifications.  
+
+With this module, you can ensure your store always has an up-to-date product list! 🎯  
+
+---
+
+## 📦 Order Management  
+
+Keeping track of customer orders is super easy with the **Order Management Module**. You can view, update, and manage all orders efficiently.  
+
+### 🔑 Key Features  
+
+✔️ **View All Orders** – Check order details, including customer names, items purchased, and total price.  
+✔️ **Update Order Status** – Change statuses like *Pending, Shipped, Delivered*, or *Cancelled*.  
+✔️ **Search & Filter Orders** – Quickly find orders by date, status, or customer name.  
+
+### 🔍 How to Use  
+
+1️⃣ Click on **Orders** in the sidebar.  
+2️⃣ You’ll see a list of all customer orders.  
+3️⃣ Click an order to view details.  
+4️⃣ Use the **status update** option to change the order’s progress.  
+
+This ensures that all orders are processed smoothly and efficiently! ✅  
+
+---
+
+## 👥 Customer Management  
+
+Managing customers is just as important as handling products and orders. The **Customer Management Module** allows you to keep track of customer details and their order history.  
+
+### 🔑 Key Features  
+
+✔️ **View All Customers** – See a list of registered customers.  
+✔️ **Customer Details** – Access emails, Stripe Customer IDs, and order history.  
+✔️ **Search & Filter** – Quickly find customers using email or ID.  
+
+### 🔍 How to Use  
+
+1️⃣ Click on **Customers** in the sidebar.  
+2️⃣ A list of customers will appear.  
+3️⃣ Use the search bar to find a specific customer.  
+4️⃣ Click a customer’s name to view detailed information.  
+
+This module helps maintain great relationships with customers by keeping their details organized! 💡  
+
+---
+
+## 🎯 Final Thoughts  
+
+The **Admin Dashboard** is designed to make business management simple and efficient. From handling products to tracking orders and managing customers, everything is just a few clicks away.  
+
+With this guide, you should be able to navigate the dashboard effortlessly. If you ever need help, just refer back to this document. 🚀  
+
+Happy managing! 😊  
